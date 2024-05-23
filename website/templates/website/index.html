@@ -1,0 +1,9 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Página Inicial - Teste{% endblock %}
+
+{% block content %}
+    <h1>Bem-vindo ao meu site Django!</h1>
+    <p>Este é o conteúdo da página inicial.</p>
+    <a href="{% url 'sobre' %}" class="btn btn-primary">Sobre</a>
+{% endblock %}

@@ -40,11 +40,11 @@ DJANGO_APPS = [
 ]
 
 MY_APPS = [
-
+    'website',
 ]
 
 THIRD_APPS = [
-    
+
 ]
 
 INSTALLED_APPS = DJANGO_APPS + MY_APPS + THIRD_APPS
